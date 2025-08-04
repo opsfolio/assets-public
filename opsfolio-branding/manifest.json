@@ -1,0 +1,77 @@
+{
+  "brand_name": "Opsfolio Suite",
+  "version": "2025.1",
+  "description": "Official branding assets for Opsfolio Suite and its sub-products Surveilr and Fleetfolio.",
+  "core": {
+    "logos": {
+      "primary": "core/logos/primary/opsfolio-logo-primary.svg",
+      "monochrome": "core/logos/monochrome/opsfolio-logo-mono.svg",
+      "favicon": "core/logos/favicon/favicon-32x32.png"
+    },
+    "colors": "core/colors/palette.json",
+    "typography": {
+      "fonts": [
+        {
+          "name": "Inter",
+          "weights": ["400", "700"],
+          "files": [
+            "core/typography/fonts/inter-regular.ttf",
+            "core/typography/fonts/inter-bold.ttf"
+          ]
+        }
+      ],
+      "guidelines": "core/typography/typography-guidelines.pdf"
+    },
+    "icons": {
+      "system": "core/icons/system/",
+      "product_specific": "core/icons/product-specific/"
+    },
+    "guidelines": "core/brand-guidelines.pdf"
+  },
+  "sub_brands": {
+    "surveilr": {
+      "description": "Brand assets for Surveilr – Opsfolio's endpoint monitoring module.",
+      "logos": {
+        "primary": "sub-brands/surveilr/logos/surveilr-logo-primary.svg",
+        "monochrome": "sub-brands/surveilr/logos/surveilr-logo-mono.svg"
+      },
+      "colors": "sub-brands/surveilr/colors/palette.json",
+      "icons": "sub-brands/surveilr/icons/"
+    },
+    "fleetfolio": {
+      "description": "Brand assets for Fleetfolio – Opsfolio's fleet management module.",
+      "logos": {
+        "primary": "sub-brands/fleetfolio/logos/fleetfolio-logo-primary.svg",
+        "monochrome": "sub-brands/fleetfolio/logos/fleetfolio-logo-mono.svg"
+      },
+      "colors": "sub-brands/fleetfolio/colors/palette.json",
+      "icons": "sub-brands/fleetfolio/icons/"
+    }
+  },
+  "templates": {
+    "presentations": [
+      "templates/presentations/opsfolio-sales-deck.pptx",
+      "templates/presentations/audit-readiness-template.pptx"
+    ],
+    "social_media": [
+      "templates/social-media/linkedin-post-template.fig",
+      "templates/social-media/x-banner-template.psd"
+    ],
+    "print": [
+      "templates/print/business-card.ai"
+    ],
+    "email": [
+      "templates/email/newsletter-template.html"
+    ]
+  },
+  "marketing_assets": {
+    "case_studies": "marketing-assets/case-studies/",
+    "launch_campaigns": "marketing-assets/launch-campaigns/",
+    "compliance_reports": "marketing-assets/compliance-reports/"
+  },
+  "media": {
+    "photography": "media/photography/",
+    "illustrations": "media/illustrations/",
+    "videos": "media/videos/"
+  }
+}
