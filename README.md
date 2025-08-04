@@ -21,29 +21,55 @@ designed to ensure **easy access for humans** and **AI-friendly ingestion**
 ```plaintext
 /opsfolio-branding
 │
-├── /core                 # Primary Opsfolio Suite brand identity
-│   ├── /logos            # Official logos (primary, monochrome, favicon)
-│   ├── /colors           # Color palette (JSON + usage notes)
-│   ├── /typography       # Fonts + guidelines
-│   ├── /icons            # Icon sets (system, product-specific)
+├── /core                     # Primary Opsfolio Suite brand identity
+│   ├── /logos                
+│   │   ├── /primary
+│   │   │   ├── opsfolio-logo-primary.svg
+│   │   │   └── opsfolio-logo-primary.png
+│   │   ├── /monochrome
+│   │   └── /favicon
+│   ├── /colors               
+│   │   └── palette.json      # HEX, RGB, CMYK, gradient info
+│   ├── /typography
+│   │   ├── /fonts            
+│   │   │   ├── inter-regular.ttf
+│   │   │   └── inter-bold.ttf
+│   │   └── typography-guidelines.pdf
+│   ├── /icons                
+│   │   ├── /system
+│   │   └── /product-specific
 │   └── brand-guidelines.pdf
 │
-├── /sub-brands           # Product-specific assets
+├── /sub-brands               # Product-specific assets
 │   ├── /surveilr
-│   ├── /fleetfolio
-│   └── /opsfolio-caas
+│   │   ├── logos/
+│   │   ├── colors/
+│   │   └── icons/
+│   └── /surveilr-patterns    # Individual pattern branding
 │
-├── /templates            # Ready-to-use design templates
+├── /templates                # Ready-to-use design templates
 │   ├── /presentations
+│   │   ├── opsfolio-sales-deck.pptx
+│   │   └── audit-readiness-template.pptx
 │   ├── /social-media
+│   │   ├── linkedin-post-template.fig
+│   │   └── x-banner-template.psd
 │   ├── /print
+│   │   └── business-card.ai
 │   └── /email
+│       └── newsletter-template.html
 │
-├── /marketing-assets     # Campaign creatives, case studies, compliance reports
+├── /marketing-assets         # Campaign-specific creatives
+│   ├── /case-studies
+│   ├── /launch-campaigns
+│   └── /compliance-reports
 │
-├── /media                # Stock/custom photography, illustrations, videos
+├── /media                    # Stock, custom photos & video
+│   ├── /photography
+│   ├── /illustrations
+│   └── /videos
 │
-└── manifest.json         # AI-readable master reference
+└── manifest.json             # AI-readable master reference
 ```
 
 ---
